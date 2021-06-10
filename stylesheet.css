@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Calibri";
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    height: 925px;
+    padding: 180px 0 100px 0;
+    background-image: url(./kal-visuals-BLWCT4-oKlM-unsplash.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    font-size: 70px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.btn-wrapper {
+    margin: 10px 0
+}
+
+.btn {
+    padding: 12px 24px;
+    margin-top: 50px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: all 0.5s;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: rgba(156, 154, 154, 1);
+}
+
+header {
+    width: 100%;
+    height: 90px;
+    background-color: rgba(55, 54, 67, 0.9);
+    color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-logo {
+    width: 124px;
+    font-size: 36px;
+    padding: 20px 20px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: 25px;
+}
+
+.header-right a {
+    font-size: 20px;
+    line-height: 65px;
+    padding: 10px 20px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.header-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 35px 0;
+    display: none;
+}
+
+.why-us {
+    height: 925px;
+    padding: 100px 0 100px 0;
+    background-image: url(./hanbyul-jeong-395ycTWJlac-unsplash.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+
+}
+
+.why-us h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.why-us p {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 10px 0;
+}
