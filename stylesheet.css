@@ -99,14 +99,14 @@ header {
 .header-right a:hover {
     background-color: rgba(255, 255, 255, 0.3);
 }
-
+/* 
 .menu-icon {
     color: white;
     float: right;
     font-size: 25px;
     padding: 35px 0;
     display: none;
-}
+} */
 
 .why-us {
     height: 925px;
